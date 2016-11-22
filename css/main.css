@@ -11,7 +11,14 @@ body {
 }
 
 .bar {
-  height: 48px;
+  height: 36px;
+  width: 100%;
+  background-color: #4d4d4f;
+  position: absolute;
+}
+
+.foot_bar {
+  height: 8px;
   width: 100%;
   background-color: #4d4d4f;
   position: absolute;
