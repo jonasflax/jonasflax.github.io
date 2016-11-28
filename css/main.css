@@ -41,14 +41,17 @@ header, main, nav, aside, footer {
 
 main {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
+  justify-content: center;
   align-items: center;
+  margin-top: 50px;
+  /*max-width: 33.333%;*/
 }
 
 .home_top {
   display: flex;
   flex-direction: column;
-  height: 50%;
+  height: 291px;
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid gray;
@@ -57,8 +60,9 @@ main {
 .home_bottom {
   display: flex;
   flex-direction: column;
-  height: 50%;
+  height: 291px;
   justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -70,11 +74,12 @@ img {
 
 .name_box{
   display: flex;
-  margin: 5% 0 0 0;
+  padding: 5% 0 0 0;
 }
 
 .text_box{
   display: flex;
+  justify-content: center;
 }
 
 .name_text {
@@ -90,11 +95,12 @@ img {
   /*margin: 15% 0 7.5% 0;*/
 }
 .intro_text {
+  display: flex;
   font-family: "Helvetica", serif;
   font-weight: lighter;
   font-size: 1em;
-  text-align: center;
-  max-width: 250px;
+  text-align: justify;
+  max-width: 225px;
   line-height: 1.25
 
 }
