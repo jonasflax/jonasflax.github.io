@@ -51,7 +51,7 @@ main {
 .home_top {
   display: flex;
   flex-direction: column;
-  height: 50%;
+  height: 290;
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid gray;
@@ -60,7 +60,7 @@ main {
 .home_bottom {
   display: flex;
   flex-direction: column;
-  height: 50%;
+  height: 290;
   justify-content: center;
   align-items: center;
 }
