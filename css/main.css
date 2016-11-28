@@ -44,14 +44,14 @@ main {
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 10%;
   /*max-width: 33.333%;*/
 }
 
 .home_top {
   display: flex;
   flex-direction: column;
-  height: 291px;
+  height: 50%;
   justify-content: center;
   align-items: center;
   border-bottom: 1px solid gray;
@@ -60,7 +60,7 @@ main {
 .home_bottom {
   display: flex;
   flex-direction: column;
-  height: 291px;
+  height: 50%;
   justify-content: center;
   align-items: center;
 }
@@ -92,7 +92,7 @@ img {
   text-align: center;
   font-family: "Helvetica";
   font-size: 1.275em;
-  /*margin: 15% 0 7.5% 0;*/
+  margin: 15% 0 7.5% 0;
 }
 .intro_text {
   display: flex;
