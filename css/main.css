@@ -79,12 +79,13 @@ main {
   display: flex;
   flex-flow: row wrap;
   min-height: 300px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  /*align-content: space-around;*/
   /*max-width: 1024px;*/
   background-color: #9db0cc;
   width: 100%;
-  padding: 36px;
+  padding: 24px;
 }
 
 .home_three {
@@ -154,15 +155,9 @@ main {
   justify-content: center;
   border: 2px solid lightgrey;
   padding: 24px;
+  al
 }
 
-.text_box {
-  margin: 0 5%;
-}
-
-.text_box_2 {
-  margin: 0 5%;
-}
 
 /*.side_box {
   width: 20px;
