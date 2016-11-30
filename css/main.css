@@ -19,8 +19,14 @@ p {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   line-height: 16px;
-  margin-bottom: 16px;
+  /*margin-bottom: 16px;*/
   font-weight: lighter;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  margin-top: 0;
 }
 
 .navigation {
@@ -73,11 +79,12 @@ main {
   display: flex;
   flex-flow: row wrap;
   min-height: 300px;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   /*max-width: 1024px;*/
   background-color: #9db0cc;
   width: 100%;
+  padding: 36px;
 }
 
 .home_three {
@@ -104,7 +111,7 @@ main {
 
 .icons {
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   text-decoration: none;
   /*border: 1px solid red;*/
   margin: 0;
@@ -115,10 +122,12 @@ main {
 
 .icons li {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .icons img {
-  margin: 0;
+  margin: 20px;
 }
 
 .logo_box img {
@@ -139,20 +148,26 @@ main {
   font-size: 20px;
 }
 
-.text_box, .text_box_2 {
+.text_box, .text_box_2, .side_box {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 1px solid red;
+  border: 2px solid lightgrey;
+  padding: 24px;
 }
 
 .text_box {
-  order: 1;
+  margin: 0 5%;
 }
 
 .text_box_2 {
-  order: 2;
+  margin: 0 5%;
 }
+
+/*.side_box {
+  width: 20px;
+}*/
+
 
 .intro_text {
   /*display: flex;*/
