@@ -1,15 +1,14 @@
 body {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
+  /*flex-flow: row wrap;*/
   /*width: 414px;
   height: 630px;*/
   background-color: #fff;
   border: 1px solid black;
   margin: auto 0;
   font-family: 'Raleway', sans-serif;
-
 }
-
 
 header, main, nav, aside, footer {
   flex: 1 100%;
@@ -85,7 +84,7 @@ main {
   /*max-width: 1024px;*/
   background-color: #9db0cc;
   width: 100%;
-  padding: 24px;
+  padding: 16px 0;
 }
 
 .home_three {
@@ -131,6 +130,11 @@ main {
   margin: 20px;
 }
 
+.logo_box {
+  margin-top: 36px;
+}
+
+
 .logo_box img {
   display: flex;
   border: 5px solid #9db0cc;
@@ -149,13 +153,13 @@ main {
   font-size: 20px;
 }
 
-.text_box, .text_box_2, .side_box {
+.text_box, .text_box_2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   border: 2px solid lightgrey;
   padding: 24px;
-  al
+  margin: 16px 0;
 }
 
 
