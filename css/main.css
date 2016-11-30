@@ -1,7 +1,6 @@
 body {
   display: flex;
-  flex-direction: column;
-  /*flex-flow: row wrap;*/
+  flex-flow: row wrap;
   /*width: 414px;
   height: 630px;*/
   background-color: #fff;
