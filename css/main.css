@@ -203,6 +203,7 @@ main {
   border: 2px solid lightgrey;
   padding: 24px;
   margin: 16px 0;
+  min-width: 275px;
   max-width: 350px;
 }
 
