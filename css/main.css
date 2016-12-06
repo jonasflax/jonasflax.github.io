@@ -111,6 +111,7 @@ main {
   align-items: center;
   width: 100%;
   border-top: 1px solid grey;
+  background-color: darkgray;
   /*border-bottom: 1px solid black;*/
 
 }
@@ -127,22 +128,18 @@ main {
 
 .half_one {
   display: flex;
-  flex-flow: column wrap;
   background-color: darkgray;
   justify-content: space-around;
   align-items: center;
-  width: 50%;
-  min-width: 400px;
+  max-width: 400px;
 }
 
 .half_two {
   display: flex;
-  flex-flow: column wrap;
   background-color: darkgray;
   justify-content: space-around;
   align-items: center;
-  width: 50%;
-  min-width: 400px;
+  max-width: 400px;
 }
 
 .icons {
@@ -196,15 +193,17 @@ main {
   border: 2px solid lightgrey;
   padding: 24px;
   margin: 16px 0;
+  width: 250px;
 }
 
 .text_box_3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*border: 2px solid lightgrey;
+  border: 2px solid lightgrey;
   padding: 24px;
-  margin: 16px 0;*/
+  margin: 16px 0;
+  max-width: 375px;
 }
 
 
@@ -217,7 +216,7 @@ main {
   display: flex;
   color: #4d4d4f;
   text-align: justify;
-  width: 300px;
+  /*width: 275px;*/
   line-height: 1.625em;
   margin: 0;
 }
