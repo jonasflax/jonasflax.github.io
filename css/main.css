@@ -1,3 +1,5 @@
+
+
 body {
   display: flex;
   flex-flow: row wrap;
@@ -234,8 +236,3 @@ main {
     display: flex;
     padding: 2px 16px;
 }
-
-/*.map_card img {
-    display: flex;
-    border-radius: 5px 5px 0 0;
-}*/
