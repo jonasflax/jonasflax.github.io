@@ -1,0 +1,25 @@
+/*
+Media Queries
+*/
+
+
+
+/* Medium screens */
+@media all and (min-width: 600px) {
+  /* We tell both sidebars to share a row */
+  .aside { flex: 1 auto; }
+}
+
+/* Large screens */
+@media all and (min-width: 1000px) {
+  /* We invert order of first sidebar and main
+   * And tell the main element to take twice as much width as the other two sidebars
+   */
+  .main { flex: 4 0px; }
+
+  .aside-1    { flex: .5; order: 1; }
+  .navigation { order: 2; }
+  .main       { order: 3; }
+  .aside-2    { flex: .5; order: 4; }
+  .footer     { order: 5; }
+}
