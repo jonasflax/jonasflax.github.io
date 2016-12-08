@@ -121,13 +121,13 @@ Horizontal Section Containers
 }
 
 .home_two {
-  min-height: 275px;
+  /*min-height: 275px;*/
   background-color: #9db0cc;
   /*padding: 16px 0;*/
 }
 
 .home_three {
-  min-height: 275px;
+  /*min-height: 275px;*/
 }
 
 .home_four {
@@ -136,7 +136,7 @@ Horizontal Section Containers
 }
 
 .home_five {
-  min-height: 100px;
+  min-height: 75px;
   background-color: #ebeff2;
 }
 
