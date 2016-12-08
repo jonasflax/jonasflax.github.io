@@ -117,7 +117,7 @@ Horizontal Section Containers
 
 .home_one {
   flex-direction: column;
-  min-height: 225px;
+  min-height: 275px;
 }
 
 .home_two {
