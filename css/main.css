@@ -3,6 +3,32 @@
   flex: 1 100%;
 }*/
 
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+
 body {
   display: flex;
   flex-flow: row wrap;
@@ -73,7 +99,7 @@ Navigation Bar
 
 
 /*
-Main Section
+Main Section Container
 */
 
 main {
@@ -86,7 +112,7 @@ main {
 }
 
 /*
-Horizontal Sections
+Horizontal Section Containers
 */
 
 .home_one, .home_two, .home_three, .home_four, .home_five {
@@ -96,8 +122,6 @@ Horizontal Sections
   justify-content: space-around;
   align-items: center;
   width: 100%;
-
-
 }
 
 .home_one {
@@ -108,7 +132,7 @@ Horizontal Sections
 .home_two {
   min-height: 275px;
   background-color: #9db0cc;
-  padding: 16px 0;
+  /*padding: 16px 0;*/
 }
 
 .home_three {
@@ -123,8 +147,15 @@ Horizontal Sections
 .home_five {
   min-height: 100px;
   background-color: #ebeff2;
-  width: 100%;
 }
+
+
+
+
+
+/*
+Inside Horizontal Section Containers
+*/
 
 .half_one {
   display: flex;
@@ -146,11 +177,11 @@ Horizontal Sections
   display: flex;
   flex-flow: row wrap;
   text-decoration: none;
-  /*border: 1px solid red;*/
   margin: 0;
   padding: 0;
   width: 100%;
   justify-content: space-around;
+  align-content: flex-end;
 }
 
 .icons li {
@@ -186,32 +217,16 @@ Horizontal Sections
   font-size: 20px;
 }
 
-.text_box, .text_box_2 {
+.text_box, .text_box_2, .text_box_3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   border: 2px solid lightgrey;
   padding: 24px;
-  margin: 16px 0;
+  margin: 24px 0;
   width: 250px;
 }
 
-.text_box_3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 2px solid lightgrey;
-  padding: 24px;
-  margin: 16px 0;
-  /*min-width: 275px;
-  max-width: 350px;*/
-  width: 250px;
-}
-
-
-/*.side_box {
-  width: 20px;
-}*/
 
 
 .intro_text {
