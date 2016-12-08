@@ -11,7 +11,7 @@ Media Queries
 }
 
 /* Large screens */
-@media all and (min-width: 1000px) {
+@media all and (min-width: 1200px) {
   /* We invert order of first sidebar and main
    * And tell the main element to take twice as much width as the other two sidebars
    */
