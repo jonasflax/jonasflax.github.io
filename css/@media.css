@@ -10,6 +10,10 @@ Media Queries
   .aside { flex: 0 auto; }
 }
 
+@media all and (min-width: 800px) {
+  .text_box_3 { flex: 0 auto; }
+}
+
 /* Large screens */
 @media all and (min-width: 1200px) {
   /* We invert order of first sidebar and main
@@ -17,9 +21,9 @@ Media Queries
    */
   .main { flex: 4 0px; }
 
-  .aside-1    { flex: 1; order: 1; }
+  .aside-1    { flex: .8; order: 1; }
   .navigation { order: 2; }
   .main       { order: 3; }
-  .aside-2    { flex: 1; order: 4; }
+  .aside-2    { flex: .8; order: 4; }
   .footer     { order: 5; }
 }
