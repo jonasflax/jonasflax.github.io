@@ -7,7 +7,7 @@ Media Queries
 /* Medium screens */
 @media all and (min-width: 600px) {
   /* We tell both sidebars to share a row */
-  .aside { flex: 1 auto; }
+  .aside { flex: 0 auto; }
 }
 
 /* Large screens */
@@ -17,9 +17,9 @@ Media Queries
    */
   .main { flex: 4 0px; }
 
-  .aside-1    { flex: .5; order: 1; }
+  .aside-1    { flex: .75; order: 1; }
   .navigation { order: 2; }
   .main       { order: 3; }
-  .aside-2    { flex: .5; order: 4; }
+  .aside-2    { flex: .75; order: 4; }
   .footer     { order: 5; }
 }
