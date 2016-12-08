@@ -8,12 +8,10 @@ Media Queries
 @media all and (min-width: 600px) {
   /* We tell both sidebars to share a row */
   .aside { flex: 0 auto; }
-  .text_box, .text_box_2, .text_box_3, .text_box_4 {
-  margin: 25px;}
 }
 
 /* Large screens */
-@media all and (min-width: 1600px) {
+@media all and (min-width: 1200px) {
   /* We invert order of first sidebar and main
    * And tell the main element to take twice as much width as the other two sidebars
    */
