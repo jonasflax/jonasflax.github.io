@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/@media.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="js/main.js"></script>
 </head>
 <body class="wrapper">
   <nav>
@@ -38,29 +39,40 @@
     </section>
 
     <section class="home_two">
-      <div class="text_box">
+      <div class="text_box_container">
+      <div class="text_box mySlides fade">
         <h2>Title One</h2>
         <p class="intro_text">
           Lorem ipsum text about the page. Another line to show capitalization and line-spaceing for the content. Read clearly without the need to magnify the font size.
         </p>
       </div>
-      <div class="text_box_2">
+      <div class="text_box_2 mySlides fade">
         <img src="img/forest_trees.jpg" alt="Forest Trees" style="width:200px;height:200px; border: 1px solid lightgrey; opacity: 0.75;">
         <!-- <h2>Other</h2>
         <p class="intro_text">
           Lorem ipsum text about the page. Another line to show capitalization and line-spaceing for the content. Can this be read clearly without the need to magnify the font size?
         </p> -->
       </div>
-      <div class="text_box_3">
+      <div class="text_box_3 mySlides fade">
         <h2>Title Two</h2>
         <p class="intro_text">
           Lorem ipsum text about the page. Another line to show capitalization and line-spaceing for the content. Read clearly without the need to magnify the font size.
         </p>
       </div>
+    </div>
+      <div class="qwerty">
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <div style="dot_box">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+    </div>
     </section>
     <section class="home_three">
       <!-- <div class="in_three"> -->
-      <h1>ICON TITLES</h1>
+      <h1>Links To My Work</h1>
     <!-- </div> -->
         <ul class="icon_box">
           <li><img src="img/other_logo.jpg" alt="Other Logo" style="width:100px;height:100px;">
