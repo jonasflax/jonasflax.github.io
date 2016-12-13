@@ -246,7 +246,7 @@ Horizontal Section Logo Container
   border: 4px solid lightgrey;
   padding: 24px;
   margin: 32px;
-  width: 100%;
+  /*width: 100%;*/
   height: 200px;
 }
 
@@ -365,13 +365,13 @@ Horizontal Section Logo Container
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0 50%;
+  /*padding: 0 50%;*/
   margin-bottom: 24px;
   /*border: 1px solid red;*/
   width: 100%;
 }
 
-.text_box_container {
+.slideshow-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
