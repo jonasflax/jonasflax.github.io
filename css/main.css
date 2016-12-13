@@ -343,7 +343,7 @@ Horizontal Section Logo Container
 }
 
 /* Fading animation */
-.fade {
+/*.fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -358,7 +358,7 @@ Horizontal Section Logo Container
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
+}*/
 
 .qwerty {
   display: flex;
