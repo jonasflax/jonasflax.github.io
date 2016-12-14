@@ -95,7 +95,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5%;
+  /*margin-top: 5%;*/
   width: 100%;
   border-left: 1px solid lightgrey;
   border-right: 1px solid lightgrey;
@@ -107,7 +107,7 @@ main {
 Horizontal Section Containers
 */
 
-.home_one, .home_two, .home_three, .home_four, .home_five {
+.home_one, .home_three, .home_four, .home_five {
   display: flex;
   flex-flow: row wrap;
   min-height: 300px;
@@ -123,11 +123,7 @@ Horizontal Section Containers
 
 .home_two {
   background-color: #9db0cc;
-  /*max-width: 1000px;
-  position: relative;*/
-  /*margin: auto;*/
-  /*padding: 16px 0;*/
-  flex-direction: column;
+  width: 100%;
 }
 
 .home_three {
@@ -194,7 +190,7 @@ Horizontal Section Icon Container
 }
 
 .logo_box {
-  margin-top: 42px;
+  margin-top: 96px;
 }
 
 
@@ -228,34 +224,31 @@ Horizontal Section Logo Container
 
 .quote {
   text-indent: 2em;
-  padding: 0 10%;
+  padding: 0 15%;
   font-weight: 400;
   line-height: 1.5em;
+  max-width: 750px;
 }
 
 .quote_name {
-  display: block;
+  display: flex;
   align-self: flex-end;
   font-weight: 100;
-  padding-right: 10%;
+  padding-right: 15%;
+  min-width: 115px;
 }
 
 .text_box, .text_box_2, .text_box_3, .text_box_4 {
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
   border: 4px solid lightgrey;
   padding: 24px;
-  margin: 32px;
-  /*width: 100%;*/
+  margin: 48px auto;
+  width: 75%;
+  max-width: 750px;
   height: 200px;
 }
 
-
-
-/*.text_box, .text_box_2, .text_box_3 h2 {
-  display: flex;
-  align-self: flex-start;
-}*/
 
 
 .intro_text {
@@ -290,8 +283,8 @@ Horizontal Section Logo Container
   padding: 16px;
   color: white;
   font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
+  font-size: 24px;
+  /*transition: 0.6s ease;*/
   border-radius: 0 3px 3px 0;
 }
 
@@ -342,8 +335,36 @@ Horizontal Section Logo Container
   background-color: #717171;
 }
 
+.dot_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*margin: 24px auto;*/
+  padding-bottom: 20px;
+  width: 100%;
+  text-align:center;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  background-color: #9db0cc;
+  width: 100%;
+  /*display: flex;
+  flex-flow: row wrap;*/
+}
+
+.mySlides {
+  display: none;
+
+}
+
+
+
 /* Fading animation */
-/*.fade {
+.fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
@@ -358,22 +379,4 @@ Horizontal Section Logo Container
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}*/
-
-.qwerty {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /*padding: 0 50%;*/
-  margin-bottom: 24px;
-  /*border: 1px solid red;*/
-  width: 100%;
-}
-
-.slideshow-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
 }

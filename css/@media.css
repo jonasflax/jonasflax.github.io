@@ -10,9 +10,9 @@ Media Queries
   .aside { flex: 0 auto; }
 }
 
-@media all and (min-width: 800px) {
+/*@media all and (min-width: 800px) {
   .text_box_3 { flex: 0 auto; }
-}
+}*/
 
 /* Large screens */
 @media all and (min-width: 1200px) {
