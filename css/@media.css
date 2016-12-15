@@ -11,6 +11,9 @@ Media Queries
 }
 
 
+
+
+
 /* Large screens */
 @media all and (min-width: 1200px) {
   /* We invert order of first sidebar and main
