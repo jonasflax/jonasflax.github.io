@@ -88,8 +88,8 @@ main {
   align-items: center;
   /*margin-top: 5%;*/
   width: 100%;
-  border-left: 1px solid lightgrey;
-  border-right: 1px solid lightgrey;
+  /*border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;*/
 }
 
 
@@ -243,9 +243,10 @@ Horizontal Section Logo Container
 
 .card_box {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-flow: row wrap;
-  max-width: 900px;
+  width: 100%;
+  margin: 36px 0;
 }
 
 .card_one {
@@ -254,12 +255,12 @@ Horizontal Section Logo Container
   justify-content: center;
   align-items: center;
   padding: 18px;
-  max-width: 350px;
+  max-width: 375px;
 }
 
 .card_one h2 {
   font-weight: bold;
-  margin-top: 18px;
+  margin-top: 36px;
   letter-spacing: .25em;
 }
 
@@ -267,7 +268,7 @@ Horizontal Section Logo Container
   max-width: 375px;
   line-height: 2em;
   margin: 0;
-  text-align: center;
+  text-align: justify;
 }
 
 .intro_text {
