@@ -181,7 +181,7 @@ Horizontal Section Icon Container
 }
 
 .logo_box {
-  margin-top: 96px;
+  margin-top: 80px;
 }
 
 
@@ -254,7 +254,7 @@ Horizontal Section Logo Container
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 18px;
+  padding: 18px 0;
   max-width: 375px;
 }
 
