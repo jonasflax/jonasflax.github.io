@@ -4,15 +4,6 @@
 }
 
 
-/*.wrapper > * {
-  padding: 10px;
-  flex: 1 100%;
-}*/
-
-/*.wrapper {
-  display: flex;
-  flex-flow: row wrap;
-}*/
 
 .aside-1 .aside-2 {
   display: flex;
@@ -74,7 +65,7 @@ Navigation Bar
   align-items: center;
   height: 40px;
   box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .navigation a {
@@ -107,7 +98,7 @@ main {
 Horizontal Section Containers
 */
 
-.home_one, .home_three, .home_four, .home_five {
+.home_one, .home_two, .home_three, .home_four, .home_five {
   display: flex;
   flex-flow: row wrap;
   min-height: 300px;
@@ -123,7 +114,6 @@ Horizontal Section Containers
 
 .home_two {
   background-color: #9db0cc;
-  width: 100%;
 }
 
 .home_three {
@@ -239,13 +229,13 @@ Horizontal Section Logo Container
 }
 
 .text_box, .text_box_2, .text_box_3, .text_box_4 {
-  /*display: flex;
-  flex-direction: column;*/
+  display: flex;
+  flex-direction: column;
   border: 4px solid lightgrey;
   padding: 24px;
   margin: 48px auto;
   width: 75%;
-  max-width: 750px;
+  width: 200px;
   height: 200px;
 }
 
@@ -270,113 +260,4 @@ Horizontal Section Logo Container
 .card_text {
     display: flex;
     padding: 2px 16px;
-}
-
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 24px;
-  /*transition: 0.6s ease;*/
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-.dot_box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  /*margin: 24px auto;*/
-  padding-bottom: 20px;
-  width: 100%;
-  text-align:center;
-}
-
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-  background-color: #9db0cc;
-  width: 100%;
-  /*display: flex;
-  flex-flow: row wrap;*/
-}
-
-.mySlides {
-  display: none;
-
-}
-
-
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
 }
