@@ -23,7 +23,7 @@ body {
   margin: auto 0;
   font-family: 'Raleway', sans-serif;
   width: 100%;
-  font-size: 1.15em;
+  font-size: 14px;
 }
 
 
@@ -34,7 +34,7 @@ p {
   /*font-size: 16px;
   line-height: 16px;*/
   font-weight: lighter;
-  line-height: 1.3em;
+  line-height: 1.2em;
 
 }
 
@@ -220,7 +220,7 @@ Horizontal Section Logo Container
   text-indent: 2em;
   padding: 0 24px;
   font-weight: lighter;
-  line-height: 2em;
+  /*line-height: 2em;*/
   max-width: 736px;
 }
 
