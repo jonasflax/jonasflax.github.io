@@ -23,6 +23,7 @@ body {
   margin: auto 0;
   font-family: 'Raleway', sans-serif;
   width: 100%;
+  font-size: 1.15em;
 }
 
 
@@ -30,9 +31,11 @@ body {
 /*Text and Fonts*/
 
 p {
-  font-size: 16px;
-  line-height: 16px;
+  /*font-size: 16px;
+  line-height: 16px;*/
   font-weight: lighter;
+  line-height: 1.3em;
+
 }
 
 h2 {
@@ -88,8 +91,8 @@ main {
   align-items: center;
   /*margin-top: 5%;*/
   width: 100%;
-  /*border-left: 1px solid lightgrey;
-  border-right: 1px solid lightgrey;*/
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
 }
 
 
@@ -249,7 +252,7 @@ Horizontal Section Logo Container
   margin: 36px 0;
 }
 
-.card_one {
+.card_one .card_two {
   display: flex;
   flex-direction: column;
   justify-content: center;
