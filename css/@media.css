@@ -27,24 +27,22 @@ Media Queries
 }
 
 
-/*@media screen and (min-width: 24.15em) { /* 21em "gate" * 1.15 font-size */
-  /*p { line-height: calc(1.3em + (1.5 - 1.3) * ((100vw - 21em) / (35 - 21))); }
-}*/
-
-@media (min-width: 40.25em) { /* 35em "gate" * 1.15 font-size */
-  /*p { line-height: 1.5em; }
-}*/*/
+/*
+Fluid Text
+*/
 
 
-@media screen and (min-width: 320px) {
+
+
+/*@media screen and (min-width: 320px) {
   p {
-    font-size: calc(18px + 8 * ((100vw - 320px) / 960));
+    font-size: calc(16px + 8 * ((100vw - 320px) / 960));
   }
 }
 
 @media screen and (min-width: 1280px) {
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -52,10 +50,10 @@ Media Queries
   p {
     line-height: calc(1.6em + 0.6 * ((100vw - 20em) / 60));
   }
-}
+}*/
 
-@media screen and (min-width: 80em) {
+/*@media screen and (min-width: 80em) {
   p {
-    line-height: 1.7em;
+    line-height: 1.65em;
   }
-}
+}*/
