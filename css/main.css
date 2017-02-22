@@ -255,7 +255,7 @@ Horizontal Section Logo Container
   display: flex;
   justify-content: space-around;
   flex-flow: column;
-  width: 275px;
+  width: 280px;
   /*margin: 16px 0;*/
   padding: 0 16px 0 16px;
   margin: 24px 0;
@@ -272,7 +272,7 @@ Horizontal Section Logo Container
   display: flex;
   justify-content: space-around;
   flex-flow: column;
-  width: 275px;
+  width: 280px;
   margin: 24px 0;
   padding: 32px;
   /*border: 2px solid darkgray;*/
