@@ -8,8 +8,6 @@ Media Queries
 @media all and (min-width: 600px) {
   /* We tell both sidebars to share a row */
   .aside { flex: 0 auto; }
-  /*.code_container .code_container_first {margin: 0;
-  border-bottom:1px solid gray;}*/
 }
 
 
