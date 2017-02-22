@@ -17,7 +17,7 @@ Media Queries
   /* We invert order of first sidebar and main
    * And tell the main element to take twice as much width as the other two sidebars
    */
-  .main { flex: 4 0px; }
+  /*.main { flex: 4 0px; }*/
 
   .aside-1    { flex: .8; order: 1; }
   .navigation { order: 2; }
