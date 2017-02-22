@@ -69,7 +69,7 @@ Navigation Bar
   align-items: center;
   height: 40px;
   box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
-  opacity: 0.75;
+  opacity: 0.86;
 }
 
 .navigation a {
@@ -255,7 +255,7 @@ Horizontal Section Logo Container
   display: flex;
   justify-content: space-around;
   flex-flow: column;
-  width: 285px;
+  width: 300px;
   /*margin: 16px 0;*/
   padding: 0 16px 0 16px;
   margin: 24px 0;
@@ -272,8 +272,8 @@ Horizontal Section Logo Container
   display: flex;
   justify-content: space-around;
   flex-flow: column;
-  width: 285px;
-  margin: 24px 0;
+  width: 300px;
+  /*margin: 24px 0;*/
   padding: 32px;
   /*border: 2px solid darkgray;*/
 }
